@@ -21,3 +21,25 @@ This project provides a FastAPI endpoint interface for controlling a robot. The 
 
 ```bash
 git clone https://github.com/your-username/FastApi-Robot-Control.git
+
+```bash
+cd FastApi-Robot-Control
+
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+```bash
+pip install -r requirements.txt
+
+
+
+## **Usage**
+
+1. Run the FastAPI application:
+
+```bash
+uvicorn app.main:app --reload
+
+2. Go to http://127.0.0.1:8000/docs to access the API documentation and test the endpoints.
