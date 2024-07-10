@@ -20,7 +20,7 @@ This project provides a FastAPI endpoint interface for controlling a robot. The 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/FastApi-Robot-Control.git
+git clone https://github.com/kayung-developer/Robot-Control-Using-FastAPI.git
 
 ```bash
 cd FastApi-Robot-Control
